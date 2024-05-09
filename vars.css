@@ -1,0 +1,10 @@
+:root{
+    --color-text: #fff;
+    --color-primary: #576cbc;   
+    --color-secondary: #19376b;
+    --color-dark:#0b2447 ;    
+    --color-bg:#04152d;
+    --font: "Tilt Neon", sans-serif;}
+
+body{background-color: var(--color-bg); width: 100%;height:100%;overflow-x: hidden; }
+html{scroll-behavior: smooth;}

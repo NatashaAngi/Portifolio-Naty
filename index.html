@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="vars.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="responsivo2.css">
+    <script src="index.js" defer></script>
+    
+
+   
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+    publicKey: "eySxVrO-BFuVg8XIv",
+    });
+    })();
+    </script>
+
+
+    <title>Naty Portifólio</title>
+
+</head>
+<body>
+    
+    <!-- MENU -->
+    <nav class="navbar">
+        <a href="/" class="title">Portifólio</a>
+
+        <div class="menu">
+            <img src="assets/nav/menuIcon.png" alt="Icone de menu hamburguer" class="menuBTN" onclick="setMenuOpen(!menuOpen)"> 
+
+            <ul class="MenuItens" onclick="setMenuOpen(false)">
+                <li> <a href="#sobre">Sobre</a></li>
+                <li> <a href="#habilidades">Habilidades</a></li>
+                <li> <a href="#contato">Contato</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- MENU -->
+
+    <!-- HERO SECTION -->
+    <section class="heroContainer">
+
+        <div class="heroContent">
+
+        <img src="./assets/icons/icon3.png" alt="Uma ilustação de koala com mato na boca" class="heroIcon">
+        <h3 class="heroTitle">Olá, meu nome é Naty!</h3>
+
+        <p class="heroText">Eu sou uma desenvolvedora front-end em formação pela Oracle One, seja bem vindo(a) ao meu portifólio!</p>
+
+        <a href="#contato" class="contatoHero">Entre em contato!</a>
+
+        <div class="topBlur"></div>
+        
+        </div>
+
+
+    </section>
+    <!-- HERO SECTION -->
+
+    <!-- SOBRE -->
+    
+    <section class="sobreContainer" id="sobre">
+
+        <h2 class="sobreTitle">Sobre</h2>
+
+        <div class="sobreContent">
+
+            <img src="assets/icons/icon4.png" alt="ilustação de um coala" class="sobreImg">
+
+            <ul class="sobreItens">
+                <li class="item"><img src="assets/sobre/cursorIcon.png" alt="cursor"></li>
+
+                <div class="sobreTexto">
+                <h3 class="sobreTitulo2">Desenvolvedora Front-End</h3>
+                
+                <p class="sobreDescricao">Olá, meu nome é Natasha, mas podem me chamar de Naty!! Tenho 26 anos e estou estudando para me tornar uma desenvolvedora Front-End.</p>
+                <p class="sobreDescricao">Tenho experiência em construção de sites responsivos e otimizados utilizando Javascript, Angular e React.</p>
+
+                </div>
+            </ul>
+
+        </div>
+
+
+    </section>
+    <!-- SOBRE -->
+
+    <!-- HABILIDADES -->
+
+    <section class="habContainer" id="habilidades">
+
+        <h2 class="habTitle">Habilidades e Projetos</h2>
+
+        <h3 class="hab">Habilidades</h3>
+        <p class="habText">Amplo conhecimento nas tecnologias Front-end, sendo elas: <br /> HTML,CSS, Javascript, Angular e React.</p>
+
+        <div class="habContent">
+            
+            <ul class="skills">
+                <li class="itens">
+                    <img src="assets/skills/html.png" alt="logo html" class="logo">
+                </li>
+                <li class="itens">
+                    <img src="assets/skills/css.png" alt="logo css" class="logo">
+                </li>
+                <li class="itens">
+                    <img src="assets/skills/javascript.png" alt="logo javascript" class="logo">
+                </li>
+                <li class="itens">
+                    <img src="assets/skills/angular.png" alt="logo angular" class="logo">
+                </li>
+                <li class="itens">
+                    <img src="assets/skills/react.png" alt="logo react" class="logo">
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="proj">
+            <h2 class="projTitle">Projetos</h2>
+
+            <p class="projDescri">Projetos criados com o intuito de apresentar habilidades como:</p>
+            <p class="projDescri">Consumo de API's, armazenamento com LocalStorage, <br /> controle de fluxo e válidação de dados.</p>
+
+            <p class="projAlert">Para acessar os projetos basta clicar na imagem desejada</p>
+        </div>
+
+        <div class="linkProj">
+            <ul class="listaProj">
+                <li class="proj1"><a href="https://naty-pokedex.netlify.app" target='_blank'> 
+                <img src="assets/projetos/pokebola.png" alt=""> <p class="nomeProj">Pokedex</p>
+                </a></li>
+
+                <li class="proj1"><a href="https://naty-qrgenerator.netlify.app" target='_blank'> 
+                    <img src="assets/projetos/qrcode.png" alt=""> <p class="nomeProj">QRCode</p>
+                </a></li>
+
+
+                <li class="proj1"><a href="https://naty-tarefas.netlify.app" target='_blank'> 
+                    <img src="assets/projetos/book.png" alt=""> <p class="nomeProj">To-Do</p>
+                </a></li>
+
+
+                <li class="proj1"><a href="https://controle-fluxo.netlify.app" target='_blank'> 
+                    <img src="/assets/projetos/cursor.png" alt=""> <p class="nomeProj">Fluxo</p>
+                </a></li>
+
+
+                <li class="proj1"><a href="https://naty-projeto-tabuada.netlify.app" target='_blank'> 
+                    <img src="/assets/projetos/calcu.png" alt=""> <p class="nomeProj">Tabuada</p>
+                </a></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- HABILIDADES -->
+
+
+    <!-- CONTATO -->
+    <div class="contato" id="contato">
+        <h3 class="contatoTitle">Entre em contato</h3>
+        <h4 class="sociais">Redes Sociais</h4>
+
+        <ul class="redes">
+            <li class="rede1"> <a href="https://intagram.com/koalas_draw">
+                <img src="assets/contact/insta.png" alt="" class="instaimg">
+                <p class="nomerede">Instagram</p></a></li>
+
+
+            <li class="rede1"> <a href="https://github.com/NatashaAngi">
+                <img src="assets/contact/githubIcon.png" alt="" class="instaimg">
+                <p class="nomerede">GitHub</p></a></li>
+
+
+            <li class="rede1"> <a href="linkedin.com/in/natasha-angi/">
+                <img src="assets/contact/linkedinIcon.png" alt="" class="instaimg">
+                <p class="nomerede">Linkedin</p></a></li>
+        </ul>
+
+
+        <h3 class="emailTitle">Você também pode me enviar uma mensagem</h3>
+
+        <div class="emailContato campos">
+
+            
+            <label for="name" class="labelnome">nome</label>
+            <input type="text" name="name" id="name" class="input" required>
+    
+            <label for="email"  class="labelnome">Email:</label>
+            <input type="email" name="email" id="email"  class="input"required> 
+    
+            <textarea name="message" id="message" cols="30" rows="10"  class="input" required></textarea>
+    
+            <button type="submit" class="enviarBtn" onclick="sendMail()">Enviar</button>
+          
+        </div>
+    </div>
+    <!-- CONTATO -->
+
+
+    <!-- FOOTER -->
+    <footer>Criado e desenvolvido por <a href="https://intagram.com/koalas_draw">Natasha Angi</a></footer>
+    <!-- FOOTER -->
+
+
+  
+</body>
+</html>

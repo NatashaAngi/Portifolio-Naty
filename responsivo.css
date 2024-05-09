@@ -1,0 +1,56 @@
+/* NAVBAR */
+@media screen and (max-width:835px){ 
+    .navbar{flex-direction: column; align-items: flex-start;}
+
+    .menu{position: absolute;right: 0; margin-right: 10%;flex-direction: column;align-items: flex-end;gap: 11px;z-index: 3;}
+
+    .menuBTN{display: flex;cursor: pointer;}
+
+    .MenuItens{display:none ;flex-direction: column;align-items: center;gap: 13px;border-radius: 13px;background: rgb(25,55,109);    background: linear-gradient(to top, rgba(18, 41, 84, 0.469) 0%, rgb(79, 103, 149) 100% ); padding: 24px 33px; box-shadow: 10px 10px 4px 0 rgba(0, 0, 0, 0.491);}
+
+    .menuOpen{display: flex;z-index: 1;}
+
+    
+
+    .listaproj{gap: none;}
+
+    .proj1{padding: 15px;}
+
+    
+}
+
+/* HERO SECTION */
+@media screen and (max-width:835px){
+    .heroContainer{display: flex;flex-direction: column-reverse;}
+    
+    .heroContent{align-items: center;justify-content: center;align-items: center;margin: auto;}
+        
+    .heroTitle{font-size:49px;}
+    
+    .contcontatoHeroactBtn{align-items: center;margin-right:220px;}
+    
+    .heroText{ margin-bottom: 25px}
+    }
+    
+
+    /* SOBRE */
+
+    @media screen and (max-width:830px ){
+        .sobreContainer{background-color: transparent;box-shadow: none;padding-left: 0;padding-right: 0;}
+    
+        .sobreContent{flex-direction: column;}
+    
+        .sobreTitle{margin: auto;text-align: center;}
+    
+        .sobreImg{display: none;}
+    
+        .sobreItens{margin-top: 29px;}
+    }
+
+    /* HABILIDADES */
+    @media screen and (max-width:835px ){
+        .habContainer{background-color: transparent;box-shadow: none;padding-left: 0;padding-right: 0;}
+    
+      
+    
+    }
